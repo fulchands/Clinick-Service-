@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Clinick Service</string>
+
+    <string name="text_name">Don\'t have an account</string>
+    <string name="classes">Classes</string>
+    <string name="free_course">Free Course</string>
+    <string name="category">Category</string>
+    <string name="enter_number1">Enter Number1</string>
+    <string name="enter_number2">Enter Number2</string>
+    <string name="add">Add</string>
+    <string name="button">Button</string>
+    <string name="sub">Sub</string>
+    <string name="bookstore">BookStore</string>
+    <string name="leaderboard">LeaderBoard</string>
+    <string name="phone_or_email_address">Phone or Email address</string>
+    <string name="password">Password</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txv_wel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Sign up"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_mobile"
+        app:layout_constraintTop_toBottomOf="@+id/txv_wel"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/custom_edit_text_bg"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="Enter Mobile No"
+        android:layout_height="@dimen/_36sdp"
+        android:textColor="@color/black"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp"
+        android:textStyle="normal"
+
+
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_password"
+        app:layout_constraintTop_toBottomOf="@+id/edt_mobile"
+        android:layout_marginTop="25dp"
+        android:layout_height="@dimen/_36sdp"
+        android:textColor="@color/black"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:hint="Enter Password"
+        android:background="@drawable/custom_edit_text_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp"
+        android:textStyle="normal"
+
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_comfirmpassword"
+        app:layout_constraintTop_toBottomOf="@+id/edt_mobile"
+        android:layout_marginTop="100dp"
+        android:layout_height="@dimen/_36sdp"
+        android:textColor="@color/black"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:hint="Enter Confirm Password"
+        android:background="@drawable/custom_edit_text_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp"
+        android:textStyle="normal"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/edt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_password"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_btn_bg"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
